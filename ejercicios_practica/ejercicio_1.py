@@ -22,3 +22,9 @@ numero_2 = 7
 # print(....)
 
 # Repita el procedimiento para realizar la resta
+
+Operacion_1 = (numero_1+numero_2) 
+print(" El resultado de la suma entre ",numero_1,"y",numero_2," es ", Operacion_1)
+
+Operacion_2 = (numero_1-numero_2) 
+print(" El resultado de la resta entre",numero_1,"y",numero_2, "es", Operacion_2)
