@@ -45,3 +45,20 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print("Ingrese el nombre completo del padre")
+padre_1=str(input())
+nombre_p, apellido_p = padre_1.split() 
+
+print("Ingrese el nombre completo de la madre")
+padre_2=str(input())
+nombre_m, apellido_m = padre_2.split()
+
+print("Ingrese el nombre del hijo/a ")
+nn=str(input())
+
+resolucion = (nn.capitalize() +" "+ apellido_p +" "+ apellido_m)
+
+print(" El nombre completo del hijo/a es", resolucion," Bien hecho has identificado a nuestro nn de hoy!! ")
+
+#Uso de del comando .split() y .capitalize() y agregados.
